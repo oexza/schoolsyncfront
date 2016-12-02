@@ -5,7 +5,7 @@ body{
   font-size: 14px;
 }
 h1{
-  color: #ffffff;
+  color: #006064;
   font-size: 46px;
 }
 .app-md-toolbar{
@@ -30,7 +30,7 @@ height: 70px;
 width: 70px;
 }
 .logo-home-works{
-  padding-left: 75%;
+  padding-left: 350px;
 }
 .example-fill-remaining-space {
   /* This fills the remaining space, by using flexbox. 

@@ -1,6 +1,6 @@
 md-card {
-      margin: 0 10px 10px 0px;
-      width: 230px;
+      margin: 0 10px 10px 7px;
+      width: 210px;
       box-sizing: border-box;
     }
     
@@ -9,5 +9,11 @@ md-card {
       flex-flow: row wrap;
     }
     .card-img{
-        max-height: 100px;
+        max-height: 90px;
+        margin-top: 20px;
+        max-width: 100px;
+        padding-left: 35%;
+    }
+    md-card-subtitle {
+      font-size: 11px;
     }
