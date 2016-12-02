@@ -4,15 +4,33 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 14px;
 }
+h1{
+  color: #006064;
+  font-size: 46px;
+}
 .app-md-toolbar{
   max-height: 40px;
   padding: 0px 110px 10px 110px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 17px;
 }
+.app-md-toolbar-home-works{
+  background-color: #00BCD4;
+}
+.app-md-toolbar-home-works-backgroung{
+  background-image: url("./assets/images/workspace-in-cartoon-style_23-2147508020.png");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+}
 .logo{
 height: 70px;
 width: 70px;
+}
+.logo-home-works{
+  padding-left: 350px;
 }
 .example-fill-remaining-space {
   /* This fills the remaining space, by using flexbox. 
