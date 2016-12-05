@@ -7,7 +7,7 @@ import ApolloClient, {
   createNetworkInterface
 } from 'apollo-client';
 
-const graphqlURL: string = "http://96da6158.ngrok.io/graphql"
+const graphqlURL: string = "http://d7078309.ngrok.io/graphql"
 const networkInterface = createNetworkInterface({
   uri: graphqlURL,
 });
