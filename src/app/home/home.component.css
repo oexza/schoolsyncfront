@@ -1,5 +1,5 @@
 md-card {
-      margin: 0 10px 10px 7px;
+      margin: 0 4px 10px 7px;
       width: 210px;
       box-sizing: border-box;
     }
@@ -17,3 +17,13 @@ md-card {
     md-card-subtitle {
       font-size: 11px;
     }
+    .md-medium-tall {
+  background-color: #37474F;
+  color:#cccccc;
+  height: 150px;
+  padding-top: 40px;
+}
+.bottom-line{
+    margin-right: 130px;
+    border-left-style: solid 1px;
+}
