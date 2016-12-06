@@ -17,13 +17,3 @@ md-card {
     md-card-subtitle {
       font-size: 11px;
     }
-    .md-medium-tall {
-  background-color: #37474F;
-  color:#cccccc;
-  height: 150px;
-  padding-top: 40px;
-}
-.bottom-line{
-    margin-right: 130px;
-    border-left-style: solid 1px;
-}
