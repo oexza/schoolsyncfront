@@ -35,7 +35,7 @@ export class SchoolHomeComponent implements OnInit {
         if (this.auth.redirectUrl)
           this.router.navigateByUrl(this.auth.redirectUrl)
         else
-          this.router.navigate(['/', schoolId, 'dashboard'])
+          this.router.navigate(['/', schoolId, 'staff'])
       }
     })
   }

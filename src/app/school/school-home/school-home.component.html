@@ -1,4 +1,7 @@
-<div id="staff_login_card">
+<div id="staff_login_card" class="card-container">
+  <h1>
+    <img src="assets/images/apata-logo.png" class="card-img"> Apata Memorial School Portal Login
+  </h1>
   <md-card class="app-input-section">
     <md-card-title>
       <md-toolbar color="primary">Staff Login</md-toolbar>
@@ -16,4 +19,22 @@
       </form>
     </md-card-content>
   </md-card>
+  <md-card class="app-input-section">
+    <md-card-title>
+      <md-toolbar color="primary">Student Login</md-toolbar>
+    </md-card-title>
+    <md-card-content>
+      <form [formGroup]="staffLoginForm" (ngSubmit)="staffLogin()">
+        <md-input style="width: 100%" formControlName="email" placeholder="Email"></md-input>
+
+        <md-input style="width: 100%" type="password" formControlName="password" #password placeholder="Password" maxlength="50">
+        </md-input>
+
+        <button style="width: 100%" type="submit" md-raised-button [disabled]="!staffLoginForm.valid" color="primary">
+          LOGIN
+          </button>
+      </form>
+    </md-card-content>
+  </md-card>
 </div>
+<app-footer></app-footer>

@@ -13,12 +13,14 @@ import { AuthService } from '../app/services/auth.service';
 
 import { client } from './client';
 import { LoginComponent } from './login/login.component';
+//import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+
   ],
   imports: [
     MaterialModule.forRoot(),

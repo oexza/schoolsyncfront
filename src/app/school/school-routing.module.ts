@@ -14,11 +14,11 @@ const schoolRoutes: Routes = [
         children: [
             {
                 path: '',
-                component: SchoolHomeComponent
+                redirectTo:"home"
             },
             {
-                path: 'dashboard',
-                loadChildren: 'app/school/dashboard/dashboard.module#DashboardModule'
+                path: 'home',
+                component: SchoolHomeComponent
             }
         ]
     }
