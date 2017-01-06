@@ -7,10 +7,12 @@ import { SchoolHomeComponent } from './school-home/school-home.component';
 import { SchoolCanActivateGuardService } from '../services/school-can-activate-guard.service';
 import { SchoolProtectedPagesGuardService } from '../school/school-protected-pages-guard.service';
 import { MaterialModule } from '@angular/material';
+import { CommonPageElementsModule } from './../common-page-elements/common-page-elements.module';
 
 @NgModule({
   imports: [
     CommonModule,
+    CommonPageElementsModule,
     MaterialModule,
     FormsModule,ReactiveFormsModule,
     SchoolRoutingModule

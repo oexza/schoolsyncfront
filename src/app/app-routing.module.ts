@@ -15,6 +15,11 @@ const appRoutes: Routes = [
     path: ':schoolId',
     loadChildren: 'app/school/school.module#SchoolModule',
 
+  },
+  {
+    path: ':schoolId/staff',
+    loadChildren: 'app/staff-area/staff-area.module#StaffAreaModule',
+
   }
 ];
 
@@ -28,7 +33,7 @@ const appRoutes: Routes = [
     RouterModule
   ],
   providers: [
-    
+
   ]
 })
 export class AppRoutingModule { }
